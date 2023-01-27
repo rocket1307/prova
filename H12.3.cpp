@@ -55,20 +55,7 @@ int main() {
 
         // c)
 
-        nome_cognome = nome + cognome;
-        for(int i=0; i<nome_cognome.length(); i++)
-            if(nome_cognome.substr(i,1) != "a" &&
-               nome_cognome.substr(i,1) != "e" && 
-               nome_cognome.substr(i,1) != "i" && 
-               nome_cognome.substr(i,1) != "o" && 
-               nome_cognome.substr(i,1) != "u" &&
-               nome_cognome.substr(i,1) != "A" &&
-               nome_cognome.substr(i,1) != "E" && 
-               nome_cognome.substr(i,1) != "I" && 
-               nome_cognome.substr(i,1) != "O" && 
-               nome_cognome.substr(i,1) != "U" )
-                
-                conta++;
+        
 
         cout << "Il numero di consonanti del nome e del cognome è : " << conta << endl;
 
